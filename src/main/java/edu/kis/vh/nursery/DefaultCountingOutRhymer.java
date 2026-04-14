@@ -7,7 +7,7 @@ public class DefaultCountingOutRhymer {
     private static final int DEFAULT_VALUE = -1;
 
     private final int[] numbers = new int[SIZE];
-    public int total = IF_EMPTY;
+    private int total = IF_EMPTY;
 
     public int getTotal() {
         return total;
@@ -38,4 +38,7 @@ public class DefaultCountingOutRhymer {
                         return numbers[total--];
                     }
 
+    public void setTotal(int total) {
+        this.total = total;
+    }
 }
