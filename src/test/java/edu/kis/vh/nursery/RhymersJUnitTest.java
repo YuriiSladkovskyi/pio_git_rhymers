@@ -76,3 +76,4 @@ public class RhymersJUnitTest {
     }
 
 }
+// 5 testów przeszło pomyślnie
